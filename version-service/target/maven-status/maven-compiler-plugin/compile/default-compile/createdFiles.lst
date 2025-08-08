@@ -1,0 +1,5 @@
+com\collab\version\VersionServiceApplication.class
+com\collab\version\repository\VersionRepository.class
+com\collab\version\model\Version.class
+com\collab\version\service\VersionService.class
+com\collab\version\controller\VersionController.class

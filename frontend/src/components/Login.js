@@ -28,7 +28,7 @@ export default function Login({ onLogin }) {
       <h2>Login</h2>
       <div className="small">Use username & password created during register</div>
       <div style={{height:10}} />
-      <input placeholder="Username" value={username} onChange={(e)=>setUsername(e.target.value)} />
+      <input placeholder="Username" type="text" value={username} onChange={(e)=>setUsername(e.target.value)} />
       <div style={{height:8}} />
       <input placeholder="Password" type="password" value={password} onChange={(e)=>setPassword(e.target.value)} />
       <div style={{height:8}} />

@@ -98,7 +98,7 @@ export default function Editor(){
         <h2 className="card">Dashboard</h2>
         <div className="card">
           <h3>Create New Document</h3>
-          <input placeholder="Title" value={title} onChange={e=>setTitle(e.target.value)} />
+          <input placeholder="Title" type="text" value={title} onChange={e=>setTitle(e.target.value)} />
           <div style={{height:8}}/>
           <textarea placeholder="Start writing..." value={content} onChange={e=>setContent(e.target.value)} />
           <div style={{height:8}}/>

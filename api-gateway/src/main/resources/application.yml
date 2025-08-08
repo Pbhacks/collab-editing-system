@@ -14,6 +14,19 @@ spring:
           uri: http://localhost:8083
           predicates:
             - Path=/api/versions/**
+
+        # NEW: Route raw /docs/** (for refresh calls without /api)
+        - id: doc-service-direct
+          uri: http://localhost:8082
+          predicates:
+            - Path=/docs/**
+
+        # NEW: Route websocket
+        - id: doc-service-ws
+          uri: http://localhost:8082
+          predicates:
+            - Path=/ws/**
+      
       default-filters:
         - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials, RETAIN_FIRST
 

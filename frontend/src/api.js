@@ -1,4 +1,4 @@
-// API wrapper using Axios. All calls go through API Gateway.
+// src/api.js
 import axios from "axios";
 
 const api = axios.create({
@@ -6,14 +6,13 @@ const api = axios.create({
   headers: {
     "Content-Type": "application/json"
   },
-  timeout: 10000
+  timeout: 15000
 });
 
-// simple response interceptor (could add auth here)
 api.interceptors.response.use(
   res => res,
   err => {
-    // keep simple for now
+    // pass through error to UI
     return Promise.reject(err);
   }
 );

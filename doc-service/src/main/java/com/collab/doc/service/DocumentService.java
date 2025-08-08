@@ -32,4 +32,6 @@ public class DocumentService {
         return repo.findById(id)
                 .orElseThrow(() -> new RuntimeException("Document not found with id: " + id));
     }
+    
 }
+

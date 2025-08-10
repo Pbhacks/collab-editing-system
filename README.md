@@ -1,3 +1,5 @@
+**Welcome to the collaborative editor project**
+<img src="https://github.com/Pbhacks/collab-editing-system/blob/main/Project_Images/Gis.gif" alt="Project Demo" width="800"/>
 
 ````markdown
 # 📝 Collaborative Editing System
@@ -208,7 +210,4 @@ MIT License — feel free to modify and distribute.
 
 ---
 
-```
 
-If you want, I can also **embed screenshots** of the running app and a **GIF of real-time editing** into this README so it looks even better on GitHub. That would make it stand out.
-```

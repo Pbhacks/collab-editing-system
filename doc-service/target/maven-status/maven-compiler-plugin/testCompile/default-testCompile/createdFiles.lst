@@ -1,5 +1,5 @@
-com/collab/doc/service/DocumentServiceTest.class
-com/collab/doc/controller/DocCompatibilityControllerTest.class
-com/collab/doc/controller/DocumentControllerTest.class
-com/collab/doc/DocServiceApplicationTest.class
-com/collab/doc/config/WebSocketConfigTest.class
+com\collab\doc\controller\DocCompatibilityControllerTest.class
+com\collab\doc\controller\DocumentControllerTest.class
+com\collab\doc\DocServiceApplicationTest.class
+com\collab\doc\service\DocumentServiceTest.class
+com\collab\doc\config\WebSocketConfigTest.class

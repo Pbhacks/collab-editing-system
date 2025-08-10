@@ -1,2 +1,2 @@
-com/collab/gateway/config/CorsConfig.class
-com/collab/gateway/ApiGatewayApplication.class
+com\collab\gateway\ApiGatewayApplication.class
+com\collab\gateway\config\CorsConfig.class

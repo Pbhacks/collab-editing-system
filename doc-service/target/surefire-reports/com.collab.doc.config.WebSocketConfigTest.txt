@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.collab.doc.config.WebSocketConfigTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.578 s -- in com.collab.doc.config.WebSocketConfigTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.815 s -- in com.collab.doc.config.WebSocketConfigTest

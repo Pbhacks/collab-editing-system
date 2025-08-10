@@ -1,12 +1,13 @@
 package com.collab.version.service;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import com.collab.version.model.Version;
 import com.collab.version.repository.VersionRepository;
 import com.collab.version.service.error.VersionNotFoundException;
-import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
-import java.util.List;
 
 @Service
 public class VersionService {

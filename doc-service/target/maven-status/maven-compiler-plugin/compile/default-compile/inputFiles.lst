@@ -1,8 +1,8 @@
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/controller/DocumentController.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/service/DocumentService.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/controller/DocCompatibilityController.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/DocServiceApplication.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/model/Document.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/repository/DocumentRepository.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/config/WebSocketConfig.java
-/home/utkarsh/Desktop/RCOP/collab-editing-system/doc-service/src/main/java/com/collab/doc/config/AppConfig.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\controller\DocCompatibilityController.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\repository\DocumentRepository.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\controller\DocumentController.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\service\DocumentService.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\config\WebSocketConfig.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\model\Document.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\config\AppConfig.java
+C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\doc-service\src\main\java\com\collab\doc\DocServiceApplication.java

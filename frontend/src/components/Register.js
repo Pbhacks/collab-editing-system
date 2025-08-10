@@ -22,9 +22,9 @@ export default function Register() {
   return (
     <div className="card" style={{maxWidth:520, margin:"20px auto"}}>
       <h2>Register</h2>
-      <input placeholder="Username" value={username} onChange={e=>setUsername(e.target.value)} />
+      <input placeholder="Username" type="text" value={username} onChange={e=>setUsername(e.target.value)} />
       <div style={{height:8}} />
-      <input placeholder="Email" value={email} onChange={e=>setEmail(e.target.value)} />
+      <input placeholder="Email" type="email" value={email} onChange={e=>setEmail(e.target.value)} />
       <div style={{height:8}} />
       <input placeholder="Password" type="password" value={password} onChange={e=>setPassword(e.target.value)} />
       <div style={{height:8}} />

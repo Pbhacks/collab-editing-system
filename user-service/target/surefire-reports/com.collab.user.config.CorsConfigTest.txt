@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.collab.user.config.CorsConfigTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.50 s -- in com.collab.user.config.CorsConfigTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.27 s -- in com.collab.user.config.CorsConfigTest

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-service\src\main\java\com\collab\version\controller\VersionController.java
 C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-service\src\main\java\com\collab\version\repository\VersionRepository.java
 C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-service\src\main\java\com\collab\version\service\error\VersionNotFoundException.java
@@ -6,10 +5,3 @@ C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-ser
 C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-service\src\main\java\com\collab\version\model\Version.java
 C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-service\src\main\java\com\collab\version\controller\RestExceptionHandler.java
 C:\Users\Admin\Downloads\collab-editing-system\collab-editing-system\version-service\src\main\java\com\collab\version\service\VersionService.java
-=======
-C:\Users\Admin\Desktop\collab-editing-system\version-service\src\main\java\com\collab\version\service\VersionService.java
-C:\Users\Admin\Desktop\collab-editing-system\version-service\src\main\java\com\collab\version\controller\VersionController.java
-C:\Users\Admin\Desktop\collab-editing-system\version-service\src\main\java\com\collab\version\VersionServiceApplication.java
-C:\Users\Admin\Desktop\collab-editing-system\version-service\src\main\java\com\collab\version\model\Version.java
-C:\Users\Admin\Desktop\collab-editing-system\version-service\src\main\java\com\collab\version\repository\VersionRepository.java
->>>>>>> d648aeeb86092b3dd60720f235e866131967134b

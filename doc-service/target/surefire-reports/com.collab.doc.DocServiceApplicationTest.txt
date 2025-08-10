@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.collab.doc.DocServiceApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.015 s -- in com.collab.doc.DocServiceApplicationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.078 s -- in com.collab.doc.DocServiceApplicationTest

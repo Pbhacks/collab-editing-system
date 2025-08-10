@@ -2,15 +2,17 @@ package com.collab.doc.service;
 
 import com.collab.doc.model.Document;
 import com.collab.doc.repository.DocumentRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class DocumentService {
     private final DocumentRepository repo;
+
+    public DocumentService(DocumentRepository repo) {
+        this.repo = repo;
+    }
 
     public Document create(Document doc) {
         return repo.save(doc);
@@ -27,7 +29,7 @@ public class DocumentService {
         return repo.findByOwnerId(ownerId);
     }
 
-    // ✅ Added: Fetch document by ID (needed for displaying title in editor)
+    // Fetch document by ID
     public Document getById(Long id) {
         return repo.findById(id)
                 .orElseThrow(() -> new RuntimeException("Document not found with id: " + id));

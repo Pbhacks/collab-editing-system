@@ -1,6 +1,6 @@
-C:\Users\Admin\Documents\collab-editing-system\user-service\src\main\java\com\collab\user\config\CorsConfig.java
-C:\Users\Admin\Documents\collab-editing-system\user-service\src\main\java\com\collab\user\model\User.java
-C:\Users\Admin\Documents\collab-editing-system\user-service\src\main\java\com\collab\user\repository\UserRepository.java
-C:\Users\Admin\Documents\collab-editing-system\user-service\src\main\java\com\collab\user\controller\UserController.java
-C:\Users\Admin\Documents\collab-editing-system\user-service\src\main\java\com\collab\user\service\UserService.java
-C:\Users\Admin\Documents\collab-editing-system\user-service\src\main\java\com\collab\user\UserServiceApplication.java
+/home/utkarsh/Desktop/RCOP/collab-editing-system/user-service/src/main/java/com/collab/user/UserServiceApplication.java
+/home/utkarsh/Desktop/RCOP/collab-editing-system/user-service/src/main/java/com/collab/user/service/UserService.java
+/home/utkarsh/Desktop/RCOP/collab-editing-system/user-service/src/main/java/com/collab/user/model/User.java
+/home/utkarsh/Desktop/RCOP/collab-editing-system/user-service/src/main/java/com/collab/user/repository/UserRepository.java
+/home/utkarsh/Desktop/RCOP/collab-editing-system/user-service/src/main/java/com/collab/user/config/CorsConfig.java
+/home/utkarsh/Desktop/RCOP/collab-editing-system/user-service/src/main/java/com/collab/user/controller/UserController.java

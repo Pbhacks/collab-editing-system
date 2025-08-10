@@ -2,40 +2,43 @@ package com.collab.doc.controller;
 
 import com.collab.doc.model.Document;
 import com.collab.doc.service.DocumentService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
-@RequestMapping("/api/docs")
-@RequiredArgsConstructor
+@RequestMapping("/api/documents")
 public class DocumentController {
 
-    private final DocumentService service;
+    private final DocumentService documentService;
 
-    // 1. Create a new document
-    @PostMapping("/create")
+    public DocumentController(DocumentService documentService) {
+        this.documentService = documentService;
+    }
+
+    // Create a new document
+    @PostMapping
     public ResponseEntity<Document> create(@RequestBody Document doc) {
-        return ResponseEntity.ok(service.create(doc));
+        return ResponseEntity.ok(documentService.create(doc));
     }
 
-    // 2. Edit a document (collaborative mode)
-    @PutMapping("/edit/{id}")
-    public ResponseEntity<Document> edit(@PathVariable Long id, @RequestBody String newContent) {
-        return ResponseEntity.ok(service.edit(id, newContent));
+    // Update an existing document by id
+    @PutMapping("/{id}")
+    public ResponseEntity<Document> update(@PathVariable Long id, @RequestBody Document updatedDocument) {
+        try {
+            Document updated = documentService.edit(id, updatedDocument.getContent());
+            return ResponseEntity.ok(updated);
+        } catch (RuntimeException e) {
+            return ResponseEntity.notFound().build();
+        }
     }
 
-    // 3. Track: Get all docs of a user (simulate collaboration context)
-    @GetMapping("/user/{ownerId}")
-    public List<Document> getUserDocs(@PathVariable Long ownerId) {
-        return service.getAllByOwner(ownerId);
-    }
-
-    // 4. Get a single document by ID (needed for title display in editor)
+    // Get a single document by ID
     @GetMapping("/{id}")
     public ResponseEntity<Document> getDocumentById(@PathVariable Long id) {
-        return ResponseEntity.ok(service.getById(id));
+        try {
+            return ResponseEntity.ok(documentService.getById(id));
+        } catch (RuntimeException e) {
+            return ResponseEntity.notFound().build();
+        }
     }
 }

@@ -1,0 +1,4 @@
+com/collab/user/controller/UserControllerTest.class
+com/collab/user/UserServiceApplicationTest.class
+com/collab/user/service/UserServiceTest.class
+com/collab/user/config/CorsConfigTest.class

@@ -1,16 +1,19 @@
 package com.collab.user.service;
 
-import com.collab.user.model.User;
-import com.collab.user.repository.UserRepository;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+import com.collab.user.model.User;
+import com.collab.user.repository.UserRepository;
+
 @Service
-@RequiredArgsConstructor
 public class UserService {
     private final UserRepository repo;
+
+    public UserService(UserRepository repo) {
+        this.repo = repo;
+    }
 
     public User register(User user) {
         return repo.save(user);

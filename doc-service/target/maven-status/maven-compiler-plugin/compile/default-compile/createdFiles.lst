@@ -1,7 +1,8 @@
-com\collab\doc\model\Document.class
-com\collab\doc\repository\DocumentRepository.class
-com\collab\doc\controller\DocumentController.class
-com\collab\doc\config\AppConfig.class
-com\collab\doc\DocServiceApplication.class
-com\collab\doc\config\WebSocketConfig.class
-com\collab\doc\service\DocumentService.class
+com/collab/doc/DocServiceApplication.class
+com/collab/doc/model/Document.class
+com/collab/doc/controller/DocumentController.class
+com/collab/doc/config/WebSocketConfig.class
+com/collab/doc/repository/DocumentRepository.class
+com/collab/doc/config/AppConfig.class
+com/collab/doc/controller/DocCompatibilityController.class
+com/collab/doc/service/DocumentService.class

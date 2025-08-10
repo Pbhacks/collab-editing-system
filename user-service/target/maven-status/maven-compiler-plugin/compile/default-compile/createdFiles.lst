@@ -1,7 +1,7 @@
-com\collab\user\config\CorsConfig.class
-com\collab\user\config\CorsConfig$1.class
-com\collab\user\repository\UserRepository.class
-com\collab\user\model\User.class
-com\collab\user\UserServiceApplication.class
-com\collab\user\service\UserService.class
-com\collab\user\controller\UserController.class
+com/collab/user/model/User.class
+com/collab/user/controller/UserController.class
+com/collab/user/config/CorsConfig.class
+com/collab/user/config/CorsConfig$1.class
+com/collab/user/repository/UserRepository.class
+com/collab/user/service/UserService.class
+com/collab/user/UserServiceApplication.class

@@ -1,5 +1,7 @@
-com\collab\version\VersionServiceApplication.class
-com\collab\version\repository\VersionRepository.class
-com\collab\version\model\Version.class
-com\collab\version\service\VersionService.class
-com\collab\version\controller\VersionController.class
+com/collab/version/controller/VersionController.class
+com/collab/version/VersionServiceApplication.class
+com/collab/version/service/error/VersionNotFoundException.class
+com/collab/version/model/Version.class
+com/collab/version/repository/VersionRepository.class
+com/collab/version/controller/RestExceptionHandler.class
+com/collab/version/service/VersionService.class
